@@ -19,7 +19,7 @@ const Product = () => {
         muted
       />
         <div className='absolute top-10 left-0 w-full flex justify-center'>
-        <h1 className='text-4xl py-20 md:text-[104px] font-bold text-white'>Coming Soon</h1>
+        <h1 className='text-4xl  pt-20 py-50 md:text-[104px] font-bold text-white'>Coming Soon</h1>
       </div>
         <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
          <h1 className='text-container md:text-7xl py-6 sm:text-6xl text-4xl z md:py-6 ml-0:8 md:pl-50 text-center'>Coming Soon</h1>

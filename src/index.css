@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+body{
+  background-color: #000000;
+}
+
+
+h1 { /* This class should be named properly, it conflicts with the default HTML element */
+  font-size: 116.667px;
+  font-family: 'Playfair Display', serif;
+  text-shadow: 5px 5px 20px #7f28c8;
+  
+}
+
+
+.text-container h1 {
+  width: auto; /* Adjust width as needed */
+  font-size: 4rem; /* Adjust font size as needed */
+  line-height: 1.5; /* Adjust line height for better readability */
+  overflow: hidden; /* Ensures text does not spill outside */
+  text-overflow: ellipsis; /* Adds an ellipsis if text is cut off */
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Number of lines you want */
+  -webkit-box-orient: vertical;
+  color: rgb(255, 255, 255);
+  text-align: left;
+  position: flex;
+}
+
+
+
+.hbutton {
+  border-width: 3px;
+  border-color: rgb(53, 37, 96);
+  border-style: solid;
+  border-radius: 33px;
+  background-image: -moz-linear-gradient( -1deg, rgb(234,0,255) 0%, rgb(40,113,250) 100%);
+  background-image: -webkit-linear-gradient( -1deg, rgb(234,0,255) 0%, rgb(40,113,250) 100%);
+  background-image: -ms-linear-gradient( -1deg, rgb(234,0,255) 0%, rgb(40,113,250) 100%);
+  position: absolute;
+  top: 982px;
+  width: 860px;
+  height: 181px;
+  z-index: 10;
+  box-shadow: 0px 8px 20px 0px rgba(174, 76, 255, 0.8);
+}
+
+
+/* Container for stars */
+
+
+@keyframes move-twink-back {
+    from {background-position: 0 0;}
+    to {background-position: -10000px 5000px;}
+}

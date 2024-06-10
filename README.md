@@ -3,7 +3,8 @@
 ## About the Project 
 
 ## Environment 
-npm install
+npm install for frontend 
+mvn spring-boot:run for backend
 
 ## Contributer 
 backend- Ronglin 

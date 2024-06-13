@@ -26,7 +26,7 @@ const ControlCrytal = () => {
             <source src={Crystalstone} type='video/mp4' />
             Your browser does not support the video tag.
           </video> */}
-           <img className='w-[800] h-[800] mx-auto my-4' src={Crystalstone} alt='Crystal Stone' />
+           <img className='w-[100%] h-[100%] mx-auto my-4' src={Crystalstone} alt='Crystal Stone' />
       </div>
     </div>
     </div>

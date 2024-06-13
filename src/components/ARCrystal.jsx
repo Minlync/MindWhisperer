@@ -38,7 +38,7 @@ const ARCrystal = () => {
           <p className='text-white'>
             Scan QR code to experience
           </p>
-          <img className="w-[90px] h-[90px] mt-100 pt-100" src={Crystalcode} alt="QR Code" />
+          {/* <img className="w-[100%] h-[100%] mt-100 pt-100" src={Crystalcode} alt="QR Code" /> */}
         </div>
       </div>
     </div>

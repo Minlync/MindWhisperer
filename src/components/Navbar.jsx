@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
+import PermIdentityIcon from '@mui/icons-material/PermIdentity';
+import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import '../background.css';
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -17,7 +19,16 @@ const Navbar = () => {
       <ul className='hidden md:flex'>
         <li className='p-4'><Link to="/">Home</Link></li>
         <li className='p-4'><Link to="/products">Products</Link></li>
-        {/* <li className='p-4'><Link to="/contact">Contact</Link></li> */}
+
+        {/* <li className='p-4'><Link to="/products">Cart </Link></li> */}
+        <li className='p-4'>
+          <Link to="/shopping">
+            <ShoppingCartOutlinedIcon style ={{ marginRight: '8px '}} /> </Link> </li>
+        <li className='p-4'>
+            <Link to="/login">
+              <PermIdentityIcon style={{ marginRight: '8px' }} /> 
+            </Link>
+          </li>
       </ul>
       <div onClick={handleNav} className='block md:hidden'>
         {nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20} />}

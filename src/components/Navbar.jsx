@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import PermIdentityIcon from '@mui/icons-material/PermIdentity';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
+import Logo from '../assets/LOGO.svg'; 
+
 import '../background.css';
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -14,7 +16,7 @@ const Navbar = () => {
     <div className="navbar">
     <div className={`flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white ${nav ? 'fixed top-0 left-0 w-full  z-50' : ''}`}>
       <h2 className='w-full text-3xl font-bold text-[#ffffff]'>
-        <Link to="/">Mind Whisperer</Link>
+        <Link to="/"><img src={Logo} alt="Mind Whisperer Logo" className="h-8" style={{ width: '200px', height: 'auto' }} /> {/* SVG used here */}</Link>
       </h2>
       <ul className='hidden md:flex'>
         <li className='p-4'><Link to="/">Home</Link></li>

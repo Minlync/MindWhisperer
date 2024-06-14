@@ -1,5 +1,6 @@
 import React from 'react';
 // import footerbg from '../assets/footerbg.jpg';
+import Logo from '../assets/LOGO.svg'; 
 import {
     FaDribbbleSquare,
     FaFacebookSquare,
@@ -15,8 +16,12 @@ const Footer = () => {
     backgroundSize: 'cover', 
     backgroundPosition: 'center' }}>
       <div>
-        <h1 className='w-full text-3xl font-bold text-[#ffffff]'>Mind Whisperer</h1>
-        <p style={{ fontSize: '12px' }} className='py-6'>©2024 Copyright by <a href="https://www.evelync.com/">Evelyn</a></p>
+      <h1 className='w-full pl-20 text-3xl font-bold text-[#ffffff]'>
+          
+            <img src={Logo} alt="Logo" className="h-8" /> 
+          
+        </h1>
+        <p style={{  fontSize: '12px' }} className='pl-20 py-6'>©2024 Copyright by <a href="https://www.evelync.com/">Evelyn &</a> <a href="https://www.linkedin.com/in/ronglin-chen-61b6531b9/">Ronglin</a></p>
         {/* <p> DESIGNED BY EVELYN CHEN</p> */}
         
       </div>

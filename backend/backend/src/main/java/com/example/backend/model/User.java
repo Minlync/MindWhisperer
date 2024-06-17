@@ -1,10 +1,11 @@
 package com.example.backend.model;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
+
 @Entity
+@Table(name="`user`")
 public class User {
     @Id
-    private long id;
+   // @GeneratedValue(strategy = GenerationType.IDENTITY)
     private String username;
     private String password;
     public User(){}
@@ -14,10 +15,12 @@ public class User {
     }
 
     public String getUsername() {
+
         return this.username;
     }
 
     public String getPassword() {
+
         return this.password;
     }
 

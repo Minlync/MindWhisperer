@@ -22,6 +22,14 @@ public class UserService {
         return user != null && user.getPassword().equals(password);
     }
 
+    public boolean signUp(User user) {
+        if (userRepository.findByUsername(user.getUsername()) != null) {
+            return false;
+        }
+        userRepository.save(user);
+        return true;
+    }
+
 
 }
 

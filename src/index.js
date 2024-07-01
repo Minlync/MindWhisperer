@@ -9,6 +9,9 @@ import Footer from './components/Footer';
 import Products from './components/Products';
 import Home from './pages/Home';
 import Signup from './pages/Signup';
+import Login from './pages/Login';
+import SignupTest from './pages/signuptest';
+
 // import Contact from './pages/Contact';
 import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
@@ -21,10 +24,11 @@ const App = () => {
     <Router>
       <Navbar />
       <Routes>
-        
         <Route path="/" element={<Home />} />
         <Route path="/products" element={<Products />} />
         <Route path="/signup" element={<Signup/>}/>  
+        <Route path="/login" element={<Login />} />
+        <Route path="/signup-test" element={<SignupTest />} />
       </Routes>
       <Footer /> {/* This will appear at the bottom of every page */}
     </Router>

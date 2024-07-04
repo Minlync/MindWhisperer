@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
 import PermIdentityIcon from '@mui/icons-material/PermIdentity';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
+import ManageAccountsIcon from '@mui/icons-material/ManageAccounts';
 import Logo from '../assets/LOGO.svg'; 
 
 import '../background.css';
@@ -31,6 +32,11 @@ const Navbar = () => {
               <PermIdentityIcon style={{ marginRight: '8px' }} /> 
             </Link>
           </li>
+        <li className='p-4'>
+          <Link to="/signup">
+            <ManageAccountsIcon style={{marginRight:'8px'}}/>
+          </Link>
+        </li>
       </ul>
       <div onClick={handleNav} className='block md:hidden'>
         {nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20} />}

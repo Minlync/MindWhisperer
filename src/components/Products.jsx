@@ -2,9 +2,7 @@ import React from 'react';
 import '../gradient.css'; 
 import productstore from '../assets/store.mp4';
 
-
 const Product = () => {
-
 
   return (
     <div>

@@ -8,8 +8,8 @@ I hold the belief that within the vastness of the universe, humans are insignifi
 - Evelyn
 
 ## Environment 
-npm install for frontend 
-mvn spring-boot:run for backend
+React & JavaScript 
+Java SpringBoot 
 
 ## Contributer 
 backend- Ronglin 

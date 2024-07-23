@@ -25,18 +25,19 @@ const Navbar = () => {
 
         {/* <li className='p-4'><Link to="/products">Cart </Link></li> */}
         <li className='p-4'>
-          <Link to="/shopping">
-            <ShoppingCartOutlinedIcon style ={{ marginRight: '8px '}} /> </Link> </li>
-        <li className='p-4'>
-            <Link to="/login">
-              <PermIdentityIcon style={{ marginRight: '8px' }} /> 
-            </Link>
+            {/* <Link to="/login">
+              <PermIdentityIcon style={{ marginRight: '8px' }} /> login
+            </Link> */}
+            <Link to="/login"> login </Link>
           </li>
         <li className='p-4'>
           <Link to="/signup">
             <ManageAccountsIcon style={{marginRight:'8px'}}/>
           </Link>
         </li>
+        <li className='p-4'>
+          <Link to="/shopping">
+            <ShoppingCartOutlinedIcon style ={{ marginRight: '8px '}} /> </Link> </li>
       </ul>
       <div onClick={handleNav} className='block md:hidden'>
         {nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20} />}
@@ -48,6 +49,7 @@ const Navbar = () => {
         <li className='p-4 border-b border-gray-600'><Link to="/">Home</Link></li>
         <li className='p-4 border-b border-gray-600'><Link to="/products">About</Link></li>
         {/* <li className='p-4'><Link to="/contact">Contact</Link></li> */}
+        
       </ul>
     </div>
     </div>

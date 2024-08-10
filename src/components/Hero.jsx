@@ -20,8 +20,10 @@ const Hero = () => {
         <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
          <h1 className='text-container md:text-7xl py-6 sm:text-6xl text-4xl z md:py-6 ml-0:8 md:pl-50 text-center'>
         <Typed
+         startWhenVisible
          strings={['Unlock Your Destiny With Psychic Insights']}
          typeSpeed={150}
+         showCursor={false}
          />
           </h1>
 

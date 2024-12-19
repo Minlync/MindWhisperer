@@ -19,11 +19,10 @@ export default function SignUp() {
     event.preventDefault();
     const data = new FormData(event.currentTarget);
     const signupData = {
-      username: data.get('username'), // 使用 username 字段
-      password: data.get('password'), // 使用 password 字段
+      username: data.get('username'), 
+      password: data.get('password'),
     };
 
-    // 检查必填字段是否填写
     if (!signupData.username || !signupData.password) {
       alert("Please fill out all required fields.");
       return;
@@ -36,6 +35,7 @@ export default function SignUp() {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify(signupData),
+        mode:'cors',
       });
 
       if (response.status === 201) {

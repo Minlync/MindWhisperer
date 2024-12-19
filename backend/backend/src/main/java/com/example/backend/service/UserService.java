@@ -1,10 +1,12 @@
 package com.example.backend.service;
 
-import com.example.backend.model.User;
-import com.example.backend.repository.UserRepository;
-import jakarta.annotation.PostConstruct;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import com.example.backend.model.User;
+import com.example.backend.repository.UserRepository;
+
+import jakarta.annotation.PostConstruct;
 
 @Service
 public class UserService {
@@ -13,8 +15,12 @@ public class UserService {
 
     @PostConstruct
     public void initUsers() {
-        userRepository.save(new User("u1", "p1"));
-        userRepository.save(new User("u2", "p2"));
+        if (userRepository.findByUsername("u1") == null) {
+            userRepository.save(new User("u1", "p1"));
+        }
+        if (userRepository.findByUsername("u2") == null) {
+            userRepository.save(new User("u2", "p2"));
+        }
     }
 
     public boolean validate(String username, String password) {

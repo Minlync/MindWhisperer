@@ -9,7 +9,7 @@ I hold the belief that within the vastness of the universe, humans are insignifi
 
 ## Environment 
 React & JavaScript 
-Java SpringBoot 
+Java SpringBoot && Heroku
 
 ## Contributer 
 backend- Ronglin 

@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.93adc804.css",
-    "main.js": "/static/js/main.8407da1a.js",
+    "main.css": "/static/css/main.8abff093.css",
+    "main.js": "/static/js/main.fae49559.js",
     "static/media/section2.gif": "/static/media/section2.7595aea6d438465102f5.gif",
-    "static/media/crystalcontroller.gif": "/static/media/crystalcontroller.5600b3ddee1b1ab957f6.gif",
+    "static/media/crystalcontroller.gif": "/static/media/crystalcontroller.7c4df0514e530dd2db4e.gif",
     "static/media/home_01.gif": "/static/media/home_01.2d6170e165a776b450ef.gif",
     "static/media/crystal-hover2.gif": "/static/media/crystal-hover2.03cbdc1f940e3ed289a7.gif",
     "static/media/store.mp4": "/static/media/store.c4febb975fb8e2493a5d.mp4",
     "static/media/crystal.png": "/static/media/crystal.9a29b2bff052f76d9aaa.png",
-    "static/media/lastsebg.jpg": "/static/media/lastsebg.4b3c7a5300689eaf7552.jpg",
+    "static/media/lastsebg.jpg": "/static/media/lastsebg.7286edae5713d0584a44.jpg",
     "static/media/crystalcode.png": "/static/media/crystalcode.a0386851439f66fe0624.png",
+    "static/media/LOGO.svg": "/static/media/LOGO.76ba2453756871388525a7c4a06b1191.svg",
     "static/media/roboto-latin-500-normal.woff2": "/static/media/roboto-latin-500-normal.f25d774ecfe0996f8eb5.woff2",
     "static/media/roboto-latin-700-normal.woff2": "/static/media/roboto-latin-700-normal.227c93190fe7f82de3f8.woff2",
     "static/media/roboto-latin-400-normal.woff2": "/static/media/roboto-latin-400-normal.b009a76ad6afe4ebd301.woff2",
@@ -67,11 +68,11 @@
     "static/media/roboto-greek-ext-400-normal.woff": "/static/media/roboto-greek-ext-400-normal.f708607d2a7290fb8bfa.woff",
     "static/media/roboto-greek-ext-700-normal.woff": "/static/media/roboto-greek-ext-700-normal.249853776d22a271b2b5.woff",
     "index.html": "/index.html",
-    "main.93adc804.css.map": "/static/css/main.93adc804.css.map",
-    "main.8407da1a.js.map": "/static/js/main.8407da1a.js.map"
+    "main.8abff093.css.map": "/static/css/main.8abff093.css.map",
+    "main.fae49559.js.map": "/static/js/main.fae49559.js.map"
   },
   "entrypoints": [
-    "static/css/main.93adc804.css",
-    "static/js/main.8407da1a.js"
+    "static/css/main.8abff093.css",
+    "static/js/main.fae49559.js"
   ]
 }

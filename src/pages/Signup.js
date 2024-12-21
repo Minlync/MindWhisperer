@@ -29,7 +29,7 @@ export default function SignUp() {
     }
 
     try {
-      const response = await fetch('http://localhost:8080/rest/auth/signup', {
+      const response = await fetch('https://mindapp-8b2236ba7a99.herokuapp.com/rest/auth/signup', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
